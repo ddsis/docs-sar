@@ -1,0 +1,95 @@
+site_name: Cotizador - Grupo SAR
+site_description: This is the documentation for the Grupo SAR project.
+docs_dir: './docs/'
+copyright: Copyright &copy; R. Domenzain 2023
+
+plugins:
+    - search
+    - glightbox
+theme:
+    name: material
+    language: es
+    icon:
+        logo: octicons/repo-24
+        repo: fontawesome/brands/github
+    font:
+      text: Ubuntu
+      code: Source Code Pro
+    palette:
+      # Palette toggle for light mode
+      - media: "(prefers-color-scheme: light)"
+        scheme: default
+        primary: light blue
+        toggle:
+          icon: material/weather-night
+          name: Dark mode
+      # Palette toggle for dark mode
+      - media: "(prefers-color-scheme: dark)"
+        scheme: slate
+        primary: black
+        toggle:
+          icon: material/weather-sunny
+          name: Light mode
+    features:
+        - navigation.tabs
+        - instant
+
+extra:
+    manifest: "manifest.webmanifest"
+    generator: false
+    social:
+        - icon: material/home
+          link: https://ddsis.github.io/gruposar/
+        - icon: material/github
+          link: https://github.com/rdomenzain
+        - icon: material/linkedin
+          link: https://linkedin.com/in/rdomenzain
+    consent:
+      title: Consentimiento de cookies
+      description: >- 
+        Usamos cookies para reconocer sus visitas y preferencias repetidas, 
+        así como para medir la efectividad de nuestra documentación y si los 
+        usuarios encuentran lo que están buscando. Con su consentimiento, 
+        nos ayuda a mejorar nuestra documentación.
+    analytics:
+      feedback:
+        title: ¿Fue útil esta página?
+        ratings:
+          - icon: material/emoticon-happy-outline
+            name: Esta página fue útil
+            data: 1
+            note: >-
+              ¡Gracias por tus comentarios!
+          - icon: material/emoticon-sad-outline
+            name: Esta página podría mejorarse.
+            data: 0
+            note: >- 
+              ¡Gracias por tus comentarios! Ayúdanos a mejorar esta página.
+markdown_extensions:
+    - toc:
+          permalink: true
+    - admonition
+    - abbr
+    - attr_list
+    - codehilite
+    - def_list
+    - footnotes
+    - md_in_html
+    - meta
+    - pymdownx.caret
+    - pymdownx.critic
+    - pymdownx.details
+    - pymdownx.emoji:
+          emoji_index: !!python/name:materialx.emoji.twemoji
+          emoji_generator: !!python/name:materialx.emoji.to_svg
+    - pymdownx.keys
+    - pymdownx.snippets
+    - pymdownx.superfences:
+          custom_fences:
+              - name: mermaid
+                class: mermaid
+                format: !!python/name:pymdownx.superfences.fence_code_format
+    - pymdownx.tabbed
+    - pymdownx.tasklist:
+          custom_checkbox: true
+    - pymdownx.tilde
