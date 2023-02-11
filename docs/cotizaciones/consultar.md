@@ -1,3 +1,3 @@
-# Cotizador
+# Consultar cotizaciones
 
 !!! warning "En construcción"

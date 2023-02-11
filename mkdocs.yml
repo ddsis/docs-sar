@@ -2,6 +2,20 @@ site_name: Cotizador - Grupo SAR
 site_description: This is the documentation for the Grupo SAR project.
 docs_dir: './docs/'
 copyright: Copyright &copy; R. Domenzain 2023
+extra_css:
+  - './assets/extra.css'
+nav:
+  - 'Cotizador SAR': index.md
+  - 'Administración de la aplicación':
+    - 'Usuarios': ./administracion/users.md
+    - 'Artículos': ./administracion/articulos.md
+    - 'Avisos': ./administracion/avisos.md
+    - 'Configuración de la aplicación': ./administracion/config.md
+    - 'Márgenes': ./administracion/margenes.md
+    - 'Jerarquía de descuentos': ./administracion/descuentos.md
+  - 'Cotizaciones':
+    - 'Generar cotización': ./cotizaciones/generar.md
+    - 'Consultar cotizaciones': ./cotizaciones/consultar.md
 
 plugins:
     - search
@@ -19,7 +33,7 @@ theme:
       # Palette toggle for light mode
       - media: "(prefers-color-scheme: light)"
         scheme: default
-        primary: light blue
+        primary: blue
         toggle:
           icon: material/weather-night
           name: Dark mode
@@ -39,7 +53,7 @@ extra:
     generator: false
     social:
         - icon: material/home
-          link: https://ddsis.github.io/gruposar/
+          link: https://ddsis.github.io/docs-sar/
         - icon: material/github
           link: https://github.com/rdomenzain
         - icon: material/linkedin

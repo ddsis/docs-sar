@@ -1,3 +1,0 @@
-# Artículos
-
-> !!! warning "En construcción"
