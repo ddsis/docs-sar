@@ -1,3 +1,0 @@
-# Márgenes
-
-!!! warning "En construcción"

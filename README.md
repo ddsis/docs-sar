@@ -11,4 +11,4 @@ mkdocs serve
 
 ## Deploy
 
-This project is deployed using Github actions. The workflow is defined in `.github/workflows/main.yml`. The workflow is triggered when a push is made to the `master` branch.
+This project is deployed using GitHub actions. The workflow is defined in `.github/workflows/main.yml`. The workflow is triggered when a push is made to the `master` branch.

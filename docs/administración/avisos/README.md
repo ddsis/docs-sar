@@ -1,3 +1,0 @@
-# Avisos
-
-!!! warning "En construcción"
