@@ -35,3 +35,9 @@ Para editar un usuario deberá seleccionar la opción Editar.
 Para activar o desactivar un usuario deberá seleccionar el icono verde para desactivar y rojo para activar.
 
 ![activar_desactivar_usuario](./../assets/images/activar_desactivar_usuario.png){: .center}
+
+## Correo electrónico de notificación
+
+Cuando se crea un usuario, se envía un correo electrónico al administrador para notificarle que se ha creado un nuevo usuario.
+
+![correo_usuario](./../assets/images/correo_usuario.png){: .center}
